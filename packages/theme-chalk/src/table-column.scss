@@ -5,7 +5,7 @@
 
 @include b(table-column) {
   @include m(selection) {
-    .cell {
+    .el-cell {
       padding-left: 14px;
       padding-right: 14px;
     }

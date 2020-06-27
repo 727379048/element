@@ -64,7 +64,7 @@ export default {
                 colspan={ column.colSpan }
                 rowspan={ column.rowSpan }
                 class={ this.getRowClasses(column, cellIndex) }>
-                <div class={ ['cell', column.labelClassName] }>
+                <div class={ ['el-cell', column.labelClassName] }>
                   {
                     sums[cellIndex]
                   }

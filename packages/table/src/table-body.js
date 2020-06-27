@@ -241,7 +241,7 @@ export default {
       }
 
       // 判断是否text-overflow, 如果是就显示tooltip
-      const cellChild = event.target.querySelector('.cell');
+      const cellChild = event.target.querySelector('.el-cell');
       if (!(hasClass(cellChild, 'el-tooltip') && cellChild.childNodes.length)) {
         return;
       }
