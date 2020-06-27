@@ -190,13 +190,9 @@
     background-color: $--table-header-background-color;
 
     > .el-cell {
-      display: inline-block;
-      box-sizing: border-box;
       position: relative;
-      vertical-align: middle;
       padding-left: 8px;
       padding-right: 8px;
-      width: 100%;
 
       &.highlight {
         color: $--color-primary;
@@ -226,10 +222,10 @@
   }
 
   .el-cell {
-    box-sizing: border-box;
+    /*box-sizing: border-box;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: normal;
+    white-space: normal;*/
     word-break: break-all;
     line-height: 23px;
     padding-left: 8px;
@@ -284,7 +280,7 @@
       border-right: $--table-border;
 
       &:first-child .el-cell {
-        padding-left: 10px;
+        padding-left: 8px;
       }
     }
 
